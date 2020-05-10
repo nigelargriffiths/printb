@@ -13,7 +13,7 @@ Useful, if you have a binary file that what to peak inside for strings, special 
 
 ## Example
 ```
-$ cat printb | ./printb | head -20
+$ cat printb | ./printb | head -20                                                                                                          
 
 01 df 00 05 5e b8 53 d5 00 00 14 d4 00 00 00 ce 00 48 10 02 ....^.S..........H..
 01 0b 00 01 00 00 07 3c 00 00 03 84 00 00 00 04 20 00 0b 90 .......<............
@@ -36,4 +36,4 @@ $ cat printb | ./printb | head -20
 7c b0 2b 78 82 62 00 2c 3b e2 fc d0 91 c2 00 04 91 e2 00 1c |.+x.b.,;...........
 ```
 
-## I have on some large projects cut the printb() function into the code to allow printing of buffers and messages within the code.
+- I have on some large projects cut the printb() function into the code to allow printing of buffers and messages within the code.
